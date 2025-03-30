@@ -1,3 +1,8 @@
+/* Apply box-sizing to everything for consistency */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -18,35 +23,40 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 header h1 {
   margin: 0;
   font-size: 2.5em;
   text-align: center;
+  width: 100%;
 }
 
-nav ul {
+header nav {
+  width: 100%;
+  text-align: center;
+}
+
+header nav ul {
   list-style: none;
   padding: 0;
-  margin-top: 10px;
-  display: flex;
+  margin: 10px 0 0 0;
+  display: inline-flex;
   justify-content: center;
 }
 
-nav ul li {
+header nav ul li {
   margin: 0 15px;
 }
 
-nav ul li a {
+header nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
 .section {
-  padding: 160px 50px 100px;
+  padding: 160px 50px 100px; /* Top padding accounts for fixed header */
   text-align: center;
   min-height: 100vh;
 }
