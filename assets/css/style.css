@@ -59,6 +59,7 @@ header nav ul li a {
   padding: 160px 50px 100px; /* Top padding accounts for fixed header */
   text-align: center;
   min-height: 100vh;
+  scroll-margin-top: 100px; /* Ensures section content isn't hidden behind header */
 }
 
 .placeholder {
