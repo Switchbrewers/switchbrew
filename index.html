@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Switchbrew</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <header>
@@ -18,36 +18,55 @@
       </ul>
     </nav>
   </header>
-  
-  <section id="home" class="section">
-    <h2>Welcome to Switchbrew</h2>
-    <p>Your go-to source for Nintendo Switch homebrewing.</p>
-    <div class="placeholder">Homepage content coming soon...</div>
-  </section>
-  
-  <section id="roms" class="section">
-    <h2>ROMs Library</h2>
-    <p>Browse our collection of ROMs.</p>
-    <div class="placeholder">ROMs list will be available soon...</div>
-  </section>
-  
-  <section id="tutorials" class="section">
-    <h2>Homebrewing Tutorials</h2>
-    <p>Step-by-step guides to unlock your Switch's full potential.</p>
-    <div class="placeholder">Tutorials are being prepared...</div>
-  </section>
-  
-  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <p>Have questions? Reach out to us!</p>
-    <div class="placeholder">Contact form coming soon...</div>
-  </section>
-  
-  <footer>
-    <p>&copy; 2025 Switchbrew. All rights reserved.</p>
-  </footer>
 
-  <!-- JavaScript placeholder -->
-  <script src="assets/js/main.js"></script>
+  <main>
+    <section id="home" class="section">
+      <h2>Welcome to Switchbrew</h2>
+      <p>Your ultimate guide to Nintendo Switch homebrewing.</p>
+      <div class="card">
+        <p>Explore tutorials, ROMs, and community-made tools to unlock your Switch's full potential. Whether you’re a beginner or pro, we’re here to help.</p>
+        <a href="https://github.com/Switchbrewers" target="_blank" class="button">View on GitHub</a>
+      </div>
+    </section>
+
+    <section id="roms" class="section alt">
+      <h2>ROMs Library</h2>
+      <p>Explore popular titles below.</p>
+      <div class="card">
+        <ul>
+          <li><strong>Super Mario Odyssey</strong> – Explore colorful kingdoms in a 3D platformer adventure.</li>
+          <li><strong>Zelda: Breath of the Wild</strong> – An expansive open world with endless secrets.</li>
+          <li><strong>Mario Kart 8 Deluxe</strong> – Fast-paced racing with your favorite characters.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tutorials" class="section">
+      <h2>Homebrew Tutorials</h2>
+      <p>Step-by-step guides to unlock your console.</p>
+      <div class="card">
+        <ol>
+          <li>⚙️ <strong>Setup SD Card</strong> – Format, file structure, and starter kit.</li>
+          <li>🌐 <strong>Install Atmosphère</strong> – CFW essentials and getting it running.</li>
+          <li>📦 <strong>Run Homebrew Apps</strong> – Add FTPD, RetroArch, and more.</li>
+          <li>🧱 <strong>NAND Backup</strong> – Essential for safety and brick protection.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <h2>Contact</h2>
+      <p>Let’s connect or collaborate.</p>
+      <div class="card">
+        <p>Email us: <a href="mailto:support@switchbrew.xyz">support@switchbrew.xyz</a></p>
+        <p>Join our Discord: <a href="https://discord.gg/YOUR_INVITE">discord.gg/YOUR_INVITE</a></p>
+        <p>We welcome pull requests and contributions.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Switchbrew — Made by the community, for the community.</p>
+  </footer>
 </body>
 </html>
